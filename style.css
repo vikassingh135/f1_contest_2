@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.navbar{
+    position: sticky;
+    background-color: #FCAF02;
+    display: flex;
+    padding: 30px 40px;
+    justify-content: space-between;
+}
+
+.navbar .left h2{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.navbar .left span{
+    border-bottom: 4px solid black;
+}
+
+.navbar ul{
+    margin-left: 50px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar ul li{
+    font-size: 22px;
+    line-height: 34px;
+    font-weight: 400;
+    padding-right: 40px;
+}
+
+main{
+    background-color: #000000;
+    color: white;
+    padding: 10px 0px
+}
+
+.about{
+    padding: 60px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about img{
+    width: 400px;
+    margin-left: 20px;
+}
+
+.left h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.left p{
+    padding-top: 15px;
+    font-size: 16px;
+    line-height: 1.5;
+    word-break: break-all;
+}
+button{
+    margin-top: 20px;
+    padding: 15px 60px;
+    background-color: #FCAF02;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 30px;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    color: #FCAF02;
+    padding: 20px 80px;
+}
+
+.contact-form h2{
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 700;
+    /* padding-bottom: 15px; */
+}
+
+.contact-form > input{
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.contact-form div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.contact-form div input{
+    width: 49%;
+}
+
+input{
+    border: 1px solid #FCAF02;
+    padding: 10px 30px;
+    border-radius: 24px;
+    background-color: #000000;
+    color: #FCAF02;
+    height: 50px;
+}
+
+::placeholder{
+    color: #FCAF02;
+}
+
+input:focus{
+    outline: none;
+}
+
+.contact-form button{
+    margin: 40px 0px;
+    align-self: center;
+}
+
+table{
+    width: 89%;
+    margin: 20px 80px;
+}
+
+table, thead{
+    color: #FCAF02; 
+    border: 2px solid #FCAF02;
+    border-collapse: collapse;
+}
+
+td{
+    padding: 10px 10px;
+    text-align: left;
+   border-left: 2px solid #FCAF02;
+}
+
+tfoot{
+    background-color: #FCAF02;
+    color: #000000;
+}
+
+
+
+
+
+
+
